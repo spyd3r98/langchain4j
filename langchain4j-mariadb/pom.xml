@@ -92,6 +92,11 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>com.github.spotbugs</groupId>
+                <artifactId>spotbugs-maven-plugin</artifactId>
+                <version>4.8.5.0</version>
+            </plugin>
+            <plugin>
                 <groupId>org.honton.chas</groupId>
                 <artifactId>license-maven-plugin</artifactId>
                 <configuration>
